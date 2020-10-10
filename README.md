@@ -32,6 +32,7 @@ For now this looking glass is quite simple. Here you have some features:
     * Mikrotik/RouterOS
     * Nokia
     * OpenBGPd
+    * OpenWRT
     * Quagga
     * Vyatta/VyOS/EdgeOS
   * Support of Telnet and SSH connection to routers using password

@@ -30,6 +30,7 @@ require_once('juniper.php');
 require_once('mikrotik.php');
 require_once('nokia.php');
 require_once('openbgpd.php');
+require_once('openwrt.php');
 require_once('quagga.php');
 require_once('frr.php');
 require_once('vyatta.php');
@@ -259,6 +260,9 @@ abstract class Router {
 
       case 'openbgpd':
         return new OpenBGPD($config, $router_config, $id, $requester);
+
+      case 'openwrt':
+        return new OpenWRT($config, $router_config, $id, $requester);
 
       case 'quagga':
       case 'zebra':

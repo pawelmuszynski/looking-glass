@@ -141,6 +141,7 @@ Possible values are:
   * bird
   * quagga **or** zebra
   * openbgpd
+  * openwrt
   * edgeos **or** vyatta **or** vyos
   * frr
   * huawei

@@ -8,7 +8,7 @@ RUN apt update \
     && docker-php-ext-enable mcrypt \
     && pecl install libsodium \
     && docker-php-ext-enable sodium \
-    && git clone https://github.com/respawner/looking-glass.git --branch master --single-branch /var/www/html/ \
+    && git clone https://github.com/pawelmuszynski/looking-glass.git --branch master --single-branch /var/www/html/ \
     && apt purge -y --auto-remove git \
     && mkdir -p /var/log/ \
     && touch /var/log/looking-glass.log \
